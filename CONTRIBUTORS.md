@@ -2,7 +2,11 @@
 
 ## Hack
 
-- Christopher Simpkins
+### Core Development Team
+
+- Chris Simpkins ([@chrissimpkins](https://github.com/chrissimpkins)) - project lead
+- David van Gemeren ([@burodepeper](https://github.com/burodepeper)) - typeface usability
+- JM ([@jublo](https://github.com/jublo)) - typeface design, web development
 
 ### Hinting / Instruction Sets
 - Werner Lemberg
@@ -34,17 +38,28 @@
 
 ### Testing
 - Jameel Al-Aziz
+- Serj Alimsky
+- Aric Belsito
+- Sven Busse
+- P.F. Chimento
+- Ryan Dlugosz
+- Felix Dreissig
+- Gavin Eadie
 - Jason Evans
 - Thilo Frommeyer
 - Trevor Hayes
 - Jorg Heymans
+- Alexander Hofbauer
 - Ken J.
 - Jacek Jędrzejewski
 - Markus Jevring
 - Pete Johanson
 - Serg Koles
 - Zach Langbert
+- Jesús Martínez
 - Dave Merrill
+- Darius Niemczyk
+- Fernanda Parisi
 - Adam Quaile
 - Christopher Rucinski
 - Marek Šesták
@@ -52,10 +67,18 @@
 - Günther Stadler
 - Christopher J. Stehno
 - James Taylor
+- Manuel Uberti
+- David Van Gemeren
+- Matthew Wesley
 - Gustaf Zetterlund
 - 张标 (@angrilove)
+- @hrj
 - @iamklutch
+- @legovini
+- @MaxKh
 - @Paul-v-H
+- @ScuzzyEye
+- @tbrisbane
 
 ## DejaVu
 

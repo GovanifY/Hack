@@ -1,6 +1,48 @@
+# Version 2.015 (release build)
+
+ttf, otf, webfont builds
+
+Changes vs. release v2.013:
+
+- new vertical metrics = decreased line spacing height - Issues #28, #32, #39, #41, #95, #103
+- adjusted vertical position of the colon to a higher position, improves alignment with other punctuation glyphs (U+003A) - Issue #66
+- changed vertical position of the dash (U+002D) so that regular and oblique, bold and bold oblique are properly aligned - Issue #107
+- updated hinting algorithm for bold set (improved point position over stem of lowercase j/i for some text sizes) - Issue #84
+- underscore (U+005F) centered, increased width, increased height & aligned vertical position closer to baseline - Issues #97, #98, #100, 103,
+- increased vertical position of dieresis mark on lowercase u dieresis (U+00FC) - Issue #61
+- increased vertical position of dieresis mark on lowercase i dieresis (U+00EF)
+- increased vertical position of dieresis mark on lowercase e dieresis (U+00EB)
+- decreased vertical position of the asterisk (U+002A) - Issue #34
+- new design for ascii tilde - broader curves, taller glyph with goal to improve appearance at small text sizes where it tended to render like a dash (U+007E) - Issue #37
+- new ttf build autohinting script (./postbuild_processing/tt-hinting/autohint.sh)
+- new ttf build autohinting Control Instructions File - bold set (./postbuild_processing/tt-hinting/Hack-Bold-TA.txt)
+- new ttf build release script (./postbuild_processing/tt-hinting/release.sh)
+- new web font release script (./postbuild_processing/webfonts/releasewebfonts.sh)
+- new vfb to UFO source file conversion script (./tools/makeufo.sh)
+- new UFO source file types - includes separate source files for TrueType (`*-TT.ufo`) and PostScript (`*-PS.ufo`) releases
+- source file path changes: now includes separate `ufo` and `vfb` directories under the `./source` repository directory
+- Hack Open Font license updated to version 2.0.  The license changes better define the Hack project as a derivative project of the Bitstream Vera Sans Mono typeface project and are intended to make the license more consistent with the Bitstream Vera libre, open source license under which Hack is co-licensed.  There are no new restrictions on use of the fonts with these license changes.  Embedding permissions are made explicit in this version of the Hack Open Font license.
+
+
+# Version 2.014 (development build)
+
+- ttf only build for testing
+- updated hinting algorithm for bold set (corrected incorrect point position of lowercase j/i at some sizes) - Issue #84
+- adjusted vertical metrics - Issues #28, #32, #39, #41, #95, #103
+- centered, increased width, & adjusted vertical position of underscore - Issues #97, #98, #100, 103,
+- increased vertical position of dieresis mark on lowercase u dieresis (U+00FC) - Issue #61
+- increased vertical position of dieresis mark on lowercase i dieresis (U+00EF)
+- increased vertical position of dieresis mark on lowercase e dieresis (U+00EB)
+- decreased vertical position of the asterisk (U+002A) - Issue #34
+- new design for ascii tilde (U+007E) - Issue #37
+
+
 # Version 2.013 (release build)
 
-- ttf, otf, webfont builds
+ttf, otf, webfont builds
+
+Changes vs. release v2.010
+
 - Fixed missing middle dot glyph (U+00B7), adjusted width of U+00B7 em box to address spacing issues in editors that highlight empty spaces (Issues #27 & 46)
 - Powerline glyph alignment and size adjustments (Issue #33)
 - Fixed name tables to address:
@@ -136,7 +178,7 @@
 - Modified **dotlessi** - decreased width of horizontal stem
 - Modified **iacute** - decreased width of horizontal stem
 - Modified **icircumflex** - decreased width of horizontal stem
-- Modified **idieresis** - decreased width of horitontal stem
+- Modified **idieresis** - decreased width of horizontal stem
 - Modified **igrave** - decreased width of horizontal stem
 - Modified **imacron** - decreased width of horizontal stem
 - Modified **iogonek** - decreased width of horizontal stem
